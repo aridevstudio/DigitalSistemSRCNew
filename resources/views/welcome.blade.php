@@ -242,9 +242,9 @@
             <div class="lg:text-[24px] text-[20px] leading-normal font-extrabold tracking-tight text-gray-900">
                 Petunjuk Teknis ⭐
             </div>
-            <p class="lg:w-[700px]">File Petunjuk Teknis yang terlampir adalah untuk semua kategori. Silakan <span
-                    class="text-black font-bold">download Petunjuk Teknis</span> dibawah untuk pertanyaan dapat
-                menghubungi Panitia</p>
+            <p class="lg:w-[700px]">File Petunjuk Teknis yang terlampir adalah untuk semua kategori. Silakan <a href="https://www.youtube.com" target="_blank"
+        class="text-blue-600 hover:text-blue-800 font-bold cursor-pointer transition-colors hover:underline">download Petunjuk Teknis</a> dibawah untuk pertanyaan dapat
+    menghubungi Panitia</p>
             <div class="content flex flex-wrap justify-center items-center">
                 <img class="lg:w-[40%]" src="assets/element4.png" alt="illustrasi-robotik">
                 <div class="grup flex flex-col gap-2">

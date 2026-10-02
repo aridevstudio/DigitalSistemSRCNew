@@ -248,7 +248,7 @@
         <div id="iklan2" class="bg"></div> --}}
 
 
-        <div class="flex justify-around w-full bg-[#173966] ">
+        <div class="flex justify-around w-full bg-[#3a80de]">
             <img src="{{ asset('assets/Coming Soon.png') }}" class="w-[40em]" alt="">
         </div>
 
