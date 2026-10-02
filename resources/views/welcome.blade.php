@@ -27,20 +27,22 @@
     </dialog>
     {{-- akhir component modal konsultasi --}}
 
-    <div class="relative mt-10">
-        <div class="mx-auto">
-            <div class="banner w-full h-96 relative">
-                <div class="text absolute inset-0 flex items-center justify-center  z-10" style="margin-top: 100px">
-                    <img class="w-56 md:w-56 lg:w-64 xl:w-72" src="{{ asset('assets/logo-src.png') }}" alt="logo-brc">
-                </div>
-                <img src="{{ asset('assets/banner1.png') }}" alt="banner"
-                    class="banner-img w-full h-full lg:object-center hidden lg:block object-cover object-left-bottom
-                ">
-                <img src="{{ asset('assets/banner2.png') }}" alt="banner"
-                class="banner-img w-full h-full  object-cover lg:hidden block ">
-            </div>
+    <!-- banner utama -->
+   <div class="relative mt-20">
+    <div class="mx-auto">
+        <div class="banner w-full h-[320px] relative overflow-hidden">
+
+            <img src="{{ asset('assets/bgFiks.png') }}"
+                 alt="banner"
+                 class="w-full h-full object-cover object-[center_33%] hidden lg:block">
+
+            <img src="{{ asset('assets/bgFiks.png') }}"
+                 alt="banner"
+                 class="w-full h-full object-cover object-[center_15%] block lg:hidden">
+
         </div>
     </div>
+</div>
 
 
     {{-- <div class="flex flex-wrap gap-1">
@@ -108,13 +110,17 @@
         <div class="flex flex-col justify-between lg:flex-row">
             <div class="mb-12 lg:max-w-lg lg:pr-5 lg:mb-0">
                 <div class="max-w-xl mb-6">
-                    <h2
-                        class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                        BRC Tingkat Nasional <br class="hidden md:block" />
-                        <span class="text-orange-500">Kota Bogor</span>
+                    <h2 class="max-w-lg mb-10 text-xl font-extrabold tracking-tight text-black uppercase">
+                        SRC Tingkat Nasional
+                    <br>
+                <img
+                     src="{{ asset('assets/title.png') }}"
+                     alt="Sukabumi"
+                     class="inline-block w-[250px] h-auto align-middle"
+                    >
                     </h2>
                     <p class="text-base text-gray-700 md:text-lg">
-                        "BRC merupakan kompetisi tahunan yang luar biasa. Karena kegiatan ini bukan hanya tentang
+                        "SRC (Sukabumi Robotic Competition) merupakan kompetisi tahunan yang luar biasa. Karena kegiatan ini bukan hanya tentang
                         teknologi dan robot, tetapi juga tentang kolaborasi, inovasi dan semangat untuk belajar. Selain
                         itu hadiah menarik dan penghargaan yang menanti untuk para pemenang…."
                     </p>
@@ -123,10 +129,10 @@
                 
             </div>
 
-            <div class="relative h-80 max-w-full rounded-lg overflow-hidden">
-                <img src="{{asset('assets/src.jpg')}}" class="h-full w-full object-cover">
-                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-3xl font-bold opacity-0 hover:opacity-100 transition-opacity font-sans duration-300">
-                    SRC 2024
+            <div class="relative h-80 max-w-full rounded-xl overflow-hidden">
+                <img src="{{asset('assets/src2026.jpg')}}" class="h-full w-full object-cover shadow-xl">
+                <div class="absolute inset-0 flex items-center justify-center text-bg-yellow-50 bg-black bg-opacity-50 text-white text-3xl font-bold opacity-0 hover:opacity-100 transition-opacity font-sans duration-300">
+                    SRC 2026
                 </div>
             </div>
             
@@ -361,7 +367,7 @@
                         GALLERY
                     </h2>
                     <p class="mt-0 mb-4 lg:text-white">
-                        BOGOR ROBOTIK COMPETITION
+                        SUKABUMI ROBOTIK COMPETITION
                     </p>
                 </div>
                 <div class="hidden lg:mt-8 lg:flex lg:gap-4">
